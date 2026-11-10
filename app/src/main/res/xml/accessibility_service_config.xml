@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Konfigurasi layanan aksesibilitas.
+  Hanya TYPE_WINDOW_STATE_CHANGED yang didengar, dan tidak ada kemampuan
+  membaca isi jendela (canRetrieveWindowContent=false): aplikasi hanya perlu
+  tahu aplikasi apa yang sedang di depan, bukan isinya.
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagDefault"
+    android:canRetrieveWindowContent="false"
+    android:description="@string/accessibility_service_description"
+    android:notificationTimeout="100" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doomscroll Blocker</string>
+    <string name="accessibility_service_label">Doomscroll Blocker — deteksi aplikasi</string>
+    <string name="accessibility_service_description">Mendeteksi aplikasi mana yang sedang dibuka untuk menegakkan batas waktu yang kamu atur sendiri. Tidak ada isi layar yang dibaca atau disimpan.</string>
+</resources>
